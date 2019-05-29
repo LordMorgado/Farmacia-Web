@@ -1,0 +1,42 @@
+.carrusel {
+    height: 30rem;
+    width: auto;
+}
+article[class="container"] {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+input:focus{
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+.links{
+    color: black;
+}
+
+.links a{
+    margin-left: 4px;
+}
+.remember{
+    color: black;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.tarjeta{
+    display: inline-block;
+    width: 33%;
+}
+@media only screen and (max-width: 600px) {
+    .tarjeta{
+        display: block;
+        margin-bottom: 4%;
+        width: 100%;
+    }
+}
