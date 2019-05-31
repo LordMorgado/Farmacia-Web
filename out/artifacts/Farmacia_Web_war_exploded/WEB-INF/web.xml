@@ -12,13 +12,18 @@
         <servlet-class>proyecto.web.farmacia.servlets.srvLogout</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>srvMedAnalgesicos</servlet-name>
-        <servlet-class>proyecto.web.farmacia.servlets.srvMedAnalg</servlet-class>
+        <servlet-name>srvMedicamentos</servlet-name>
+        <servlet-class>proyecto.web.farmacia.servlets.srvMedicamentos</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>srvRegistroUsuario</servlet-name>
         <servlet-class>proyecto.web.farmacia.servlets.srvRegistraUsr</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>srvEditaMedicina</servlet-name>
+        <servlet-class>proyecto.web.farmacia.servlets.srvEditaMed</servlet-class>
+    </servlet>
+
 
     <servlet-mapping>
         <servlet-name>srvLogin</servlet-name>
@@ -29,13 +34,18 @@
         <url-pattern>/srvLogout</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>srvMedAnalgesicos</servlet-name>
-        <url-pattern>/Medicamentos_analgesicos</url-pattern>
+        <servlet-name>srvMedicamentos</servlet-name>
+        <url-pattern>/Medicamentos</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>srvRegistroUsuario</servlet-name>
         <url-pattern>/registrar</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvEditaMedicina</servlet-name>
+        <url-pattern>/editarMed</url-pattern>
+    </servlet-mapping>
+
 
     <!--ERRORES-->
 

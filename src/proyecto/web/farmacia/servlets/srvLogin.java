@@ -24,7 +24,7 @@ public class srvLogin extends HttpServlet {
     private InitialContext ctx;
     private Conecta con;
     private Statement stm;
-    private ResultSet rs, rs2;
+    private ResultSet rs;
 
     public void init () throws ServletException {
         try {
