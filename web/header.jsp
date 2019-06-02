@@ -34,7 +34,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Medicamentos?opc=1">Analgésicos</a>
                         <a class="dropdown-item" href="Medicamentos?opc=2">Antiinflamatorios</a>
-                        <a class="dropdown-item" href="Medicamentos?opc=3">Antiácidos</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=3">Respiratorio</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=4">Estomacal</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=5">Oftálmicos</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=6">Diabéticos</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="medicamentos-nuevo.jsp">Nuevo Medicamento</a>
                     </div>
@@ -82,7 +85,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Medicamentos?opc=1">Analgésicos</a>
                         <a class="dropdown-item" href="Medicamentos?opc=2">Antiinflamatorios</a>
-                        <a class="dropdown-item" href="Medicamentos?opc=3">Antiácidos</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=3">Respiratorio</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=4">Estomacal</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=5">Oftálmicos</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=6">Diabéticos</a>
                     </div>
                 </li>
                 <%--Medicamentos--%>
@@ -128,7 +134,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Medicamentos?opc=1">Analgésicos</a>
                         <a class="dropdown-item" href="Medicamentos?opc=2">Antiinflamatorios</a>
-                        <a class="dropdown-item" href="Medicamentos?opc=3">Antiácidos</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=3">Respiratorio</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=4">Estomacal</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=5">Oftálmicos</a>
+                        <a class="dropdown-item" href="Medicamentos?opc=6">Diabéticos</a>
                     </div>
                 </li>
                 <%--Medicamentos--%>

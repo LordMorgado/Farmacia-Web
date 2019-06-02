@@ -31,14 +31,12 @@
 <!-- HEADER -->
 <%@include  file="header.jsp" %>
 <!-- CONTENEDOR -->
-<% if (request.getSession().getAttribute("correo")!=null) {%>
 <article id="contenedor" class="container">
     <h1>Ha sido registrado exitosamente con el correo: ${correo}</h1>
     <form name='form1' method='post' action='index.jsp'>
     <input type='submit' name='boton' id='btnR' class="btn btn-success btn-lg" value='Regresar'>
     </form>
 </article>
-<% }  %>
 <!-- Footer -->
 <%@include  file="footer.html" %>
 <!-- Footer -->

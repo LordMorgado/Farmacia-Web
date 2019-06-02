@@ -116,6 +116,18 @@ public class srvMedicamentos extends HttpServlet {
                     type = "respiratorio";
                     url = "/medicamentos-antiacidos.jsp";
                     break;
+                case "4":
+                    type = "estomacal";
+                    url = "/medicamentos-antiacidos.jsp";
+                    break;
+                case "5":
+                    type = "oftalmico";
+                    url = "/medicamentos-antiacidos.jsp";
+                    break;
+                case "6":
+                    type = "diabetico";
+                    url = "/medicamentos-antiacidos.jsp";
+                    break;
             }
 
             rs = stm.executeQuery("select * from medicamentos where tipo = '" + type + "'");
