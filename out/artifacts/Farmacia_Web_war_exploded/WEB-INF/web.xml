@@ -23,6 +23,10 @@
         <servlet-name>srvEditaMedicina</servlet-name>
         <servlet-class>proyecto.web.farmacia.servlets.srvEditaMed</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>srvRegistraMed</servlet-name>
+        <servlet-class>proyecto.web.farmacia.servlets.srvRegistraMed</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
@@ -44,6 +48,10 @@
     <servlet-mapping>
         <servlet-name>srvEditaMedicina</servlet-name>
         <url-pattern>/editarMed</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvRegistraMed</servlet-name>
+        <url-pattern>/guardaMed</url-pattern>
     </servlet-mapping>
 
 

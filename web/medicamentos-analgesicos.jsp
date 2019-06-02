@@ -22,10 +22,11 @@
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Precio: $${precio} MXN.</label></small>
-                    <a href="medicamentos-edita.jsp?nombre=${nombre}&marca=${marca}&presentacion=${presentacion}&cantidad=${cantidad}&precio=${precio}"><button class="btn btn-success float-right">Editar</button></a>
+                    <a href="medicamentos-edita.jsp?_id=${id}&nombre=${nombre}&marca=${marca}&presentacion=${presentacion}&cantidad=${cantidad}&precio=${precio}"><button class="btn btn-success float-right">Editar</button></a>
                 </div>
             </div>
         </section>
+
     <%
     }
     else if (conectado.getAttribute("correo")!=null) {
@@ -61,5 +62,3 @@
         </section>
     <%
     }%>
-
-

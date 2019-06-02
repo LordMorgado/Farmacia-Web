@@ -125,6 +125,7 @@ public class srvMedicamentos extends HttpServlet {
                  * Se envían los registros que son el resultado del query al archivo jsp para que sean presentdos
                  * mediante tarjetas
                  */
+
                 request.setAttribute("nombre", rs.getString("nombre"));
                 request.setAttribute("marca", rs.getString("marca"));
                 request.setAttribute("presentacion", rs.getString("presentacion"));
@@ -132,6 +133,7 @@ public class srvMedicamentos extends HttpServlet {
                 request.setAttribute("img", rs.getString("imagen"));
                 if(request.getSession().getAttribute("admin")!=null ) {
                     request.setAttribute("cantidad", rs.getInt("cantidad"));
+                    request.setAttribute("id", rs.getInt("id"));
                 }
 
                 request.getRequestDispatcher(url).include(request, response);

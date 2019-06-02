@@ -34,7 +34,6 @@
 <%
     // && request.getSession().getAttribute("admin")!=null
     if(request.getParameter("nombre")!=null ) {
-        request.setAttribute("name", request.getParameter("nombre"));
         %>
         <article id="contenedor" class="container">
 
@@ -49,7 +48,7 @@
             </div>
             <div class="card-body">
                 <form name="form1" id="form1" method="post" action="editarMed">
-                    <input type="hidden" name="name" value="<% out.print(request.getParameter("nombre")); %>">
+                    <input type="hidden" name="_id" value="<% out.print(request.getParameter("_id")); %>">
                     <div class="input-group form-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-user"></i></span>

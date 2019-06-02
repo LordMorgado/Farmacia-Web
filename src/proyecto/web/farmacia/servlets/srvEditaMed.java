@@ -62,9 +62,9 @@ public class srvEditaMed extends HttpServlet {
     {
         try {
             response.setContentType("text/html");
-            System.out.println(request.getParameter("name"));
+            System.out.println(request.getParameter("_id"));
             System.out.println(request.getParameter("precio"));
-            stm.executeUpdate("UPDATE medicamentos SET precio="+request.getParameter("precio")+", cantidad="+request.getParameter("cantidad")+" WHERE nombre='"+request.getParameter("name")+"'");
+            stm.executeUpdate("UPDATE medicamentos SET precio="+request.getParameter("precio")+", cantidad="+request.getParameter("cantidad")+" WHERE id="+request.getParameter("_id"));
             response.sendRedirect("index.jsp");
         } catch (SQLException ex) {
             Logger.getLogger(srvEditaMed.class.getName()).log(Level.SEVERE, null, ex);

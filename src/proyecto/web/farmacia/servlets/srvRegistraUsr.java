@@ -69,7 +69,7 @@ public class srvRegistraUsr extends HttpServlet {
             request.getRequestDispatcher("/registroOk.jsp").include(request, response);
 
         } catch (SQLException ex) {
-            Logger.getLogger(srvLogin.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(srvRegistraUsr.class.getName()).log(Level.SEVERE, null, ex);
         }
 
 
